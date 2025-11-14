@@ -1,0 +1,217 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-pink: #ff69b4;
+  --mint-green: #a8e6cf;
+  --shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+.order-btn {
+    background: linear-gradient(to right, #27f357, #a3fda3);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+    
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+
+}
+
+  .order-btn:hover {
+    background: linear-gradient(to right, #2ae052, #6dd66d);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+    color: white;
+  }
+   .contact-btn {
+    color: #212529;
+    border: 2px solid #212529;
+    background-color: transparent;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .contact-btn:hover {
+    background-color: #212529;
+    color: #fff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    transform: translateY(-2px);
+  }
+  .btn-gradient {
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: var(--shadow);
+  }
+
+  .buy-btn {
+    background: linear-gradient(135deg, #a8e6cf, #56c596);
+  }
+
+  .buy-btn:hover {
+    background: linear-gradient(135deg, #56c596, #379683);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(86, 197, 150, 0.4);
+  }
+
+  .explore-btn {
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  }
+  .explore-btn:hover {
+    background: linear-gradient(135deg, #66a6ff, #348ac7);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(102, 166, 255, 0.4);
+  }
+
+  .nav-link {
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-link:hover {
+  background: linear-gradient(to right, #fcdde1, #c0f7ea);
+  color: #000 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+
+.nav-link:hover::after {
+  width: 100%;
+}
+.colo{
+    background-color: #a8ff61;
+}
+.cream{
+    color: #ff69b4; 
+}
+.testimonial-card {
+    max-width: 800px;
+    background: linear-gradient(to right, #ffffffcc, #fce4eccc); /* Soft pinkish gradient */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+     will-change: transform; /* Browser ko pehle se bata do */
+  backface-visibility: hidden; /* Anti-aliasing fix */
+  }
+
+  .testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #0d0e0d;
+    border-radius: 50%;
+  }
+ .product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Ensures all cards have same height */
+.h-100 {
+  height: 100%;
+}
+  
+  .product-badge {
+    position: absolute;
+    top: 15px;
+    right: -30px;
+    background: #ff69b4;
+    color: white;
+    padding: 5px 30px;
+    transform: rotate(45deg);
+    font-size: 12px;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+  }
+  
+  .explore-btn {
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .explore-btn:hover {
+    background: linear-gradient(135deg, #66a6ff, #348ac7);
+    transform: translateY(-3px);
+    color: white;
+  }
+
+  @media (max-width: 576px) {
+  .navbar .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* Prevents AOS from causing layout shift */
+[data-aos] {
+  backface-visibility: hidden;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  will-change: transform, opacity;
+  overflow-x: clip; /* 👈 This prevents animation from spilling out */
+}
+
+/* Footer safe animation container */
+.footer-animated-wrapper {
+  overflow-x: hidden;
+  width: 100%;
+}
+   .dropdown-menu {
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+}
+
+.dropdown-item:hover {
+  background: #ffe9f0;
+  color: #d63384 !important;
+  transition: all 0.3s ease;
+}
+.btn-add-to-cart {
+  transition: transform 0.2s ease, background-color 0.3s;
+}
+
+.btn-add-to-cart:hover {
+  transform: scale(1.05);
+  background-color: #28a745 !important;
+  color: white;
+}
