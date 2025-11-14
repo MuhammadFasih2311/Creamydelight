@@ -10,7 +10,6 @@ A dynamic ice cream shop website with e-commerce functionality built using **PHP
 - Add to cart and checkout system
 - Admin panel for managing orders
 - Responsive design with animations (AOS)
-- Contact form with Google reCAPTCHA
 
 ## ⚙️ Tech Stack
 - PHP
