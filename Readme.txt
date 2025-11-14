@@ -1,29 +1,27 @@
-Thank you for purchasing this website!
+# Creamy Delight 🍦
 
-📁 Folder Structure:
-- index.php
-- about.php
-- contact.php
-- style.css
-- admin/
-- images/
-- database/icecream.sql
+A dynamic ice cream shop website with e-commerce functionality built using **PHP**, **Bootstrap 5**, and **MySQL**.
 
-🛠️ How to Set Up:
-1. Install XAMPP and start Apache & MySQL.
-2. Place all files in: C:\xampp\htdocs\icecream\
-3. Open your browser and go to: http://localhost/phpmyadmin
-4. Create a new database named: icecream
-5. Import the SQL file from: /database/icecream.sql
+## 🌐 Live Demo
+[https://creamydelight.wuaze.com](https://creamydelight.wuaze.com)
 
-🔐 Admin Login (for demo):
-URL: http://localhost/icecream/admin/admin-panel.php
-Username: admin@gmail.com
-Password: admin123
+## ✨ Features
+- Home, About, Ice Cream Listing, Contact, My Orders pages
+- Add to cart and checkout system
+- Admin panel for managing orders
+- Responsive design with animations (AOS)
+- Contact form with Google reCAPTCHA
 
-📞 Need help?
-You can contact me at: fasih@example.com or via Fiverr messages.
+## ⚙️ Tech Stack
+- PHP
+- MySQL
+- Bootstrap 5
+- JavaScript
+- AOS Library
 
-Enjoy! 🙂
+## 🛡️ Notes
+- Database file is **not included** for security reasons.
 
-https://creamydelight.wuaze.com
+---
+
+👨‍💻 Developed by [Muhammad Fasih](https://fasihwebs.wuaze.com)
